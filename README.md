@@ -24,5 +24,5 @@ Studies in the Department of Statistics (18.03.~ing)
 | 2020-2 |   Ustructured Data Analysis | 비정형자료분석 |
 | 2020-2 |   Time Series Analysis and Lab | [시계열 분석 및 실습]() |
 | 2020-2 |   Computational Statistics | [통계계산]() |
-| 2020-2 |   Topics in Statistics | [통계학 특강]() |
+| 2020-2 |   Topics in Statistics | 통계학 특강 |
 | 2020-2 |   Regression Analysis II | [회귀분석II]() |
