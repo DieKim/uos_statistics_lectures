@@ -18,7 +18,7 @@ Studies in the Department of Statistics (18.03.~ing)
 | 2019-2 |   Statistical Mathematics | 통계수학 |
 | 2020-1 |   Machine Learning and Lab | [기계학습 및 실습](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-1%5D%20Machine_Learning_and_Lab) |
 | 2020-1 |   Deep Learning | 딥러닝 |
-| 2020-1 |   Discrete Data Analysis | [이산자료분석](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-1%5D%20Discrete_Data_Analysis/hw) |
+| 2020-1 |   Discrete Data Analysis | [이산자료분석](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-1%5D%20Discrete_Data_Analysis) |
 | 2020-1 |   Survey Sampling | 통계조사론 |
 | 2020-1 |   Regression Analysis I | [회귀분석I](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-1%5D%20Regression_Analysis_I) |
 | 2020-2 |   Ustructured Data Analysis | 비정형자료분석 |
