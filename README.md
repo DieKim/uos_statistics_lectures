@@ -1,8 +1,7 @@
 # UOS_Statistics
 Studies in the Department of Statistics (18.03.~ing)
-
-
-### * Curriculum
+<br>
+### 💡 Curriculum
 
 |       Semester       | Lecture(ENG) | Lecture(KOR) |
 |:----------------:|:----------------------------------------:|:----------------------------------------:|
