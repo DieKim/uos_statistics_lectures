@@ -3,17 +3,17 @@
 hwfunction = function(ITER){
   y = rep(NA,ITER)
   for(iter in 1:ITER){
-    x_old = sample(c(0,1),1)     #sample; c(0,1) Áß ÀÓÀÇ·Î 1°³¸¦ ¼±ÅÃÇØ¶ó
+    x_old = sample(c(0,1),1)     #sample; c(0,1) ì¤‘ ì„ì˜ë¡œ 1ê°œë¥¼ ì„ íƒí•´ë¼
     x_new = sample(c(0,1),1)
-    num_of_iter = 2   #´øÁø È½¼ö
-    while(!all(c(x_old,x_new)==c(1,0))){    #while; ()µ¿¾È °è¼Ó ¹İº¹ÇØ¶ó; ()°ÅÁşÀÌ µÉ¶§±îÁö µ¹·Á¶ó
-      num_of_iter = num_of_iter + 1         #all; ()°¡ ¸ğµÎ ÂüÀÌ³Ä
+    num_of_iter = 2   #ë˜ì§„ íšŸìˆ˜
+    while(!all(c(x_old,x_new)==c(1,0))){    #while; ()ë™ì•ˆ ê³„ì† ë°˜ë³µí•´ë¼; ()ê±°ì§“ì´ ë ë•Œê¹Œì§€ ëŒë ¤ë¼
+      num_of_iter = num_of_iter + 1         #all; ()ê°€ ëª¨ë‘ ì°¸ì´ëƒ
       x_old = x_new
       x_new = sample(c(0,1),1)
     }
     y[iter] = num_of_iter   
   }
-  return( mean(y) )     #return; ()¸¦ ³»º¸³»¶ó
+  return( mean(y) )     #return; ()ë¥¼ ë‚´ë³´ë‚´ë¼
 }
 
 hwfunction(10^3)
@@ -79,7 +79,7 @@ HW22Function(10^6)
 
 ### Homework 3 ###
 
-#%in%; ¾Õ¿¡ °Í ±âÁØÀ¸·Î ¸î°³°¡ °ãÄ¡´ÂÁö(±³ÁıÇÕ?)
+#%in%; ì•ì— ê²ƒ ê¸°ì¤€ìœ¼ë¡œ ëª‡ê°œê°€ ê²¹ì¹˜ëŠ”ì§€(êµì§‘í•©?)
 
 HW31Funtion = function(N){
   y = rep(NA,N)
@@ -93,7 +93,7 @@ HW31Funtion = function(N){
       y[i] = F
     }
     }
-  Out = round(sum(y)/N, digits = 10)   #¼ıÀÚ°¡ ³Ê¹« ÀÛ¾Æ¼­ ¹İ¿Ã¸²
+  Out = round(sum(y)/N, digits = 10)   #ìˆ«ìê°€ ë„ˆë¬´ ì‘ì•„ì„œ ë°˜ì˜¬ë¦¼
   return( Out )
 }
 
@@ -103,8 +103,8 @@ HW31Funtion(10^8)
 
 ### HOMEWORK 4 ###
 
-# Input : 3Áø¼öÀÇ ¼ö
-# Output : º¯È¯µÈ 10Áø¼öÀÇ ¼ö
+# Input : 3ì§„ìˆ˜ì˜ ìˆ˜
+# Output : ë³€í™˜ëœ 10ì§„ìˆ˜ì˜ ìˆ˜
 
 HW4 = function(Input){
   if( Input == 0 ){
