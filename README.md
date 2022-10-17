@@ -26,3 +26,6 @@ Studies in the Department of Statistics (18.03.~ing)
 | 2020-2 |   Computational Statistics | [통계계산](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-2%5D%20Computational_Statistics) |
 | 2020-2 |   Topics in Statistics | [통계학 특강](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-2%5D%20Topics_in_Statistics) |
 | 2020-2 |   Regression Analysis II | [회귀분석II](https://github.com/DieKim/UOS_Statistics/tree/main/%5B20-2%5D%20Regression_Analysis_II) |
+| 2022-1 |   Reaing Statistics | 빅데이터와 통계읽기 |
+| 2022-1 |   Data Visualization | 데이터 시각화 |
+| 2022-2 |   Database | 데이터베이스 |
